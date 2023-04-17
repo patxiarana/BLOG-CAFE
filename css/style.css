@@ -222,3 +222,50 @@ gap: 2rem;
     column-gap: 2rem;
 } 
 }
+
+/*cursos */
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+@media (min-width:768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type{
+    border: none;
+}
+
+
+
+
+.widget-curso {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem 
+
+}
+.widget-curso:last-of-type{
+    border: none;
+    margin-bottom: none;
+} 
+.cursos {
+    list-style: none;
+}
+
+.curso__lebel {
+font-family: var(--fuenteHeding);
+font-weight: bold;
+}
+
+.curso__info{
+font-weight: normal;
+}
+
+.curso__lebel,
+.curso__info{
+font-size: 2rem;
+}
