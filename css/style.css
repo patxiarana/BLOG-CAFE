@@ -74,14 +74,20 @@ img {
 
 
 /** header **/
+
+.webp .header{
+    background-image: url(../img/banner.jpg);
+}
+
+.no-webp .header{
+    background-image: url(../img/banner.jpg);
+}
 .header {
-background-image: url(../img/banner.jpg);
 height: 60rem;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 }
-
 
 .header__texto {
     text-align: center;
